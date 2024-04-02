@@ -17,7 +17,7 @@ const hero = {
 
 // Установка платформ
 const platforms = [];
-const platformHeight = 20;
+const platformHeight = 10;
 const platformWidth = canvas.width / 3;
 for (let i = 0; i < 10; i++) {
   platforms.push({
@@ -30,7 +30,7 @@ for (let i = 0; i < 10; i++) {
 
 // Лестница
 const ladder = {
-  x: canvas.width - platformWidth / 2 - 50,
+  x: canvas.width - platformWidth / 1 - 50,
   y: 0,
   width: 50,
   height: canvas.height,
